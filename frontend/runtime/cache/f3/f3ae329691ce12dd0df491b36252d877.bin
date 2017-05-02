@@ -1,10 +1,10 @@
-a:2:{i:0;a:2:{i:0;s:28622:"<!DOCTYPE html>
+a:2:{i:0;a:2:{i:0;s:28489:"<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="QllYbi1BY3IGKR4odwk3FSltIgF3MiQAMCo9I0ByFhoaaiEjXS8rIQ==">
+    <meta name="csrf-token" content="dGg4eDVuLWknDk8VTzlvGB8LTBRjWmsjJQV0M0NWdVoNUA8MDUNbOg==">
     <title>首页-文章列表</title>
     <link href="/assets/2c722f73/css/bootstrap.css" rel="stylesheet">
 <link href="/css/site.css" rel="stylesheet"></head>
@@ -229,7 +229,7 @@ alert 123;        </div>
     </div>
 </footer>
 
-<div id="yii-debug-toolbar" data-url="/debug/default/toolbar.html?tag=5902f9a52524f" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar.html?tag=5907fe018e5da" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
 #yii-debug-toolbar-logo {
     position: fixed;
     right: 31px;
