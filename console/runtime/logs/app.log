@@ -1,0 +1,1494 @@
+2017-04-24 23:19:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "--migrationPath=@yii/rbac/migration".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('--migrationPath...', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('--migrationPath...', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "--migrationPath=@yii/rbac/migration".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('--migrationPath...', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:19:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047171.3777
+    'REQUEST_TIME' => 1493047171
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '--migrationPath=@yii/rbac/migration'
+    ]
+    'argc' => 2
+]
+2017-04-24 23:20:41 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Migration failed. Directory specified in migrationPath doesn't exist: @yii/rbac/migration' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:71
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(150): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(152): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#5 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#8 {main}
+2017-04-24 23:20:41 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047241.8796
+    'REQUEST_TIME' => 1493047241
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migration'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:23:11 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @vendor\yiisoft\yii2\rbac\migrations' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(68): yii\BaseYii::getAlias('@vendor\\yiisoft...')
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(150): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(152): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#5 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#7 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#9 {main}
+2017-04-24 23:23:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047391.4125
+    'REQUEST_TIME' => 1493047391
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@vendor\\yiisoft\\yii2\\rbac\\migrations'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:24:12 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @yii2/rbac/migration' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(68): yii\BaseYii::getAlias('@yii2/rbac/migr...')
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(150): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(152): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#5 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#7 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#9 {main}
+2017-04-24 23:24:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047451.9762
+    'REQUEST_TIME' => 1493047451
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii2/rbac/migration'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:24:26 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Migration failed. Directory specified in migrationPath doesn't exist: @yii/rbac/migration' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:71
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(150): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(152): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#5 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#8 {main}
+2017-04-24 23:24:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047466.5535
+    'REQUEST_TIME' => 1493047466
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migration'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:25:02 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'auth_rule' already exists' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(60): yii\db\Migration->createTable('{{%auth_rule}}', Array, 'CHARACTER SET u...')
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140506_102106_rbac_init->up()
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#9 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#10 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#11 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#12 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'auth_rule' already exists
+The SQL being executed was: CREATE TABLE `auth_rule` (
+	`name` varchar(64) NOT NULL,
+	`data` text,
+	`created_at` int(11),
+	`updated_at` int(11),
+	PRIMARY KEY (name)
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `a...')
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(60): yii\db\Migration->createTable('{{%auth_rule}}', Array, 'CHARACTER SET u...')
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140506_102106_rbac_init->up()
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#9 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#10 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('migrate', Array)
+#11 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#12 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'auth_rule' already exists
+)
+
+2017-04-24 23:24:48 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047488.3173
+    'REQUEST_TIME' => 1493047488
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:29:39 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:29:39 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047779.6124
+    'REQUEST_TIME' => 1493047779
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+        2 => 'init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:30:38 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-rbac/init".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('-rbac/init', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac/init', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-rbac/init".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac/init', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:30:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047838.0679
+    'REQUEST_TIME' => 1493047838
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '-rbac/init'
+    ]
+    'argc' => 2
+]
+2017-04-24 23:30:59 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('-rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:30:59 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047859.525
+    'REQUEST_TIME' => 1493047859
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '-rbac'
+        2 => 'init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:31:38 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown alias: -init' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php:96
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#5 {main}
+2017-04-24 23:31:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047898.7735
+    'REQUEST_TIME' => 1493047898
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+        2 => '-init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:32:02 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:32:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047922.4681
+    'REQUEST_TIME' => 1493047922
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2017-04-24 23:32:32 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "--rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('--rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('--rbac', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "--rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('--rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:32:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047952.4106
+    'REQUEST_TIME' => 1493047952
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '--rbac'
+        2 => 'init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:32:58 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('-rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:32:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493047978.0493
+    'REQUEST_TIME' => 1493047978
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '-rbac'
+        2 => 'rbac/init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:34:07 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --init' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php:115
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#5 {main}
+2017-04-24 23:34:07 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493048047.3944
+    'REQUEST_TIME' => 1493048047
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+        2 => '--init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:34:12 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:34:12 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493048052.3275
+    'REQUEST_TIME' => 1493048052
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2017-04-24 23:34:27 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:34:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493048067.6032
+    'REQUEST_TIME' => 1493048067
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+        2 => 'init'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:34:44 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('-', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:34:44 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493048084.4958
+    'REQUEST_TIME' => 1493048084
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => '-'
+        2 => 'rbac'
+    ]
+    'argc' => 3
+]
+2017-04-24 23:34:53 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-24 23:34:53 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493048093.032
+    'REQUEST_TIME' => 1493048093
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2017-04-27 10:43:32 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Hello".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('Hello', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('Hello', Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "Hello".' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('Hello', Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#3 {main}
+2017-04-27 10:43:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493261012.8727
+    'REQUEST_TIME' => 1493261012
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'Hello'
+    ]
+    'argc' => 2
+]
+2017-04-27 10:46:11 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Missing required arguments: id' in E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php:157
+Stack trace:
+#0 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#3 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#4 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#5 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#6 E:\amp\www\www.yiiablog.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 E:\amp\www\www.yiiablog.com\yii(27): yii\base\Application->run()
+#8 {main}
+2017-04-27 10:46:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\î£\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'E:\\svnServer\\server\\iconv'
+    'CLASSPATH' => '.;D:\\Program Files\\Java\\jdk1.8.0_66\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÕÔî£'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\î£'
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_66'
+    'LOCALAPPDATA' => 'C:\\Users\\î£\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÕÔî£'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\î£\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\Java\\jdk1.8.0_66\\bin;E:\\amp\\mysql5.7.13\\bin;E:\\amp\\Apache24\\bin;E:\\amp\\php-5.5.37;E:\\svnServer\\server\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\î£\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\î£\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'ÕÔî£'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ÕÔî£'
+    'USERNAME' => 'î£'
+    'USERPROFILE' => 'C:\\Users\\î£'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\amp\\www\\www.yiiablog.com\\'
+    'PHP_SELF' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_NAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'SCRIPT_FILENAME' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'PATH_TRANSLATED' => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493261171.7514
+    'REQUEST_TIME' => 1493261171
+    'argv' => [
+        0 => 'E:\\amp\\www\\www.yiiablog.com\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
